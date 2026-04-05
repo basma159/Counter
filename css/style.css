@@ -55,10 +55,12 @@ button {
     border: 0;
     transition: 0.3s;
 }
-button:not(#reset):hover{
-        box-shadow: 2px 2px 18px rgb(99, 97, 97);
+
+button:not(#reset):active {
+    box-shadow: 2px 2px 18px rgb(99, 97, 97);
 
 }
+
 #reset {
     background-color: #F9B2D7;
 }
