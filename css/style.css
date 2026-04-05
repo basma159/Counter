@@ -12,19 +12,26 @@ body {
 }
 
 .counter {
-    position: absolute;
-    top: 80px;
+    width: 100%;
+    height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
     width: 350px;
     height: 300px;
     background-color: #F6FFDC;
     border-radius: 40px;
+    border: 5px solid #DAF9DE;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    border: 5px solid #DAF9DE;
     box-shadow: 2px 2px 18px rgb(99, 97, 97);
+
 }
 
 .container {
