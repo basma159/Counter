@@ -45,7 +45,6 @@ button:not(#reset) {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 button {
@@ -54,10 +53,20 @@ button {
     font-size: 20px;
     font-weight: bold;
     border: 0;
+    transition: 0.3s;
 }
+button:not(#reset):hover{
+        box-shadow: 2px 2px 18px rgb(99, 97, 97);
 
+}
 #reset {
     background-color: #F9B2D7;
+}
+
+#reset:hover {
+    background-color: white;
+    box-shadow: 2px 2px 18px rgb(99, 97, 97);
+
 }
 
 #number {
